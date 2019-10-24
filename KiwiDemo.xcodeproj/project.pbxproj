@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		444E87F42334B54D00659FA9 /* libncurses.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 444E87F32334B54D00659FA9 /* libncurses.tbd */; };
+		444E87F62334B55700659FA9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 444E87F52334B55700659FA9 /* libz.tbd */; };
+		444E87F82334B56400659FA9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 444E87F72334B56400659FA9 /* libc++.tbd */; };
+		444E87FA2334B56C00659FA9 /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 444E87F92334B56C00659FA9 /* libc.tbd */; };
+		446EE22920F4836B00017234 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EE22820F4836B00017234 /* AppDelegate.m */; };
+		446EE22C20F4836B00017234 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EE22B20F4836B00017234 /* ViewController.m */; };
+		446EE22F20F4836B00017234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446EE22D20F4836B00017234 /* Main.storyboard */; };
+		446EE23120F4836B00017234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446EE23020F4836B00017234 /* Assets.xcassets */; };
+		446EE23420F4836B00017234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446EE23220F4836B00017234 /* LaunchScreen.storyboard */; };
+		446EE23720F4836C00017234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 446EE23620F4836C00017234 /* main.m */; };
+		44F6FA082112FA9800D2219C /* MD5Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F6FA072112FA9800D2219C /* MD5Utils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4405922123419CA500D51BCE /* KiwiHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KiwiHeader.pch; sourceTree = "<group>"; };
+		440592222341A1AB00D51BCE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		444E87F32334B54D00659FA9 /* libncurses.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libncurses.tbd; path = usr/lib/libncurses.tbd; sourceTree = SDKROOT; };
+		444E87F52334B55700659FA9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		444E87F72334B56400659FA9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		444E87F92334B56C00659FA9 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
+		445C23652341E35E00EE705B /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		445C2369234DB8E900EE705B /* KiwiOBF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KiwiOBF.h; path = ../../kiwisec/KiwiCompiler_Pro1/include/KiwiOBF.h; sourceTree = "<group>"; };
+		446EE22420F4836B00017234 /* KiwiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		446EE22720F4836B00017234 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		446EE22820F4836B00017234 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		446EE22A20F4836B00017234 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		446EE22B20F4836B00017234 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		446EE22E20F4836B00017234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		446EE23020F4836B00017234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		446EE23320F4836B00017234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		446EE23520F4836C00017234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446EE23620F4836C00017234 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44F6FA062112FA9800D2219C /* MD5Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MD5Utils.h; sourceTree = "<group>"; };
+		44F6FA072112FA9800D2219C /* MD5Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MD5Utils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		446EE22120F4836B00017234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				444E87FA2334B56C00659FA9 /* libc.tbd in Frameworks */,
+				444E87F82334B56400659FA9 /* libc++.tbd in Frameworks */,
+				444E87F62334B55700659FA9 /* libz.tbd in Frameworks */,
+				444E87F42334B54D00659FA9 /* libncurses.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		444E87F22334B54D00659FA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				444E87F92334B56C00659FA9 /* libc.tbd */,
+				444E87F72334B56400659FA9 /* libc++.tbd */,
+				444E87F52334B55700659FA9 /* libz.tbd */,
+				444E87F32334B54D00659FA9 /* libncurses.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		446EE21B20F4836B00017234 = {
+			isa = PBXGroup;
+			children = (
+				4405922123419CA500D51BCE /* KiwiHeader.pch */,
+				445C2369234DB8E900EE705B /* KiwiOBF.h */,
+				445C23652341E35E00EE705B /* Config.xcconfig */,
+				446EE22620F4836B00017234 /* KiwiDemo */,
+				446EE22520F4836B00017234 /* Products */,
+				444E87F22334B54D00659FA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		446EE22520F4836B00017234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				446EE22420F4836B00017234 /* KiwiDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		446EE22620F4836B00017234 /* KiwiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				446EE22720F4836B00017234 /* AppDelegate.h */,
+				446EE22820F4836B00017234 /* AppDelegate.m */,
+				446EE22A20F4836B00017234 /* ViewController.h */,
+				446EE22B20F4836B00017234 /* ViewController.m */,
+				446EE22D20F4836B00017234 /* Main.storyboard */,
+				446EE23020F4836B00017234 /* Assets.xcassets */,
+				446EE23220F4836B00017234 /* LaunchScreen.storyboard */,
+				446EE23520F4836C00017234 /* Info.plist */,
+				446EE23620F4836C00017234 /* main.m */,
+				44F6FA062112FA9800D2219C /* MD5Utils.h */,
+				440592222341A1AB00D51BCE /* PrefixHeader.pch */,
+				44F6FA072112FA9800D2219C /* MD5Utils.m */,
+			);
+			path = KiwiDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		446EE22320F4836B00017234 /* KiwiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446EE23A20F4836C00017234 /* Build configuration list for PBXNativeTarget "KiwiDemo" */;
+			buildPhases = (
+				446EE22020F4836B00017234 /* Sources */,
+				446EE22120F4836B00017234 /* Frameworks */,
+				446EE22220F4836B00017234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiwiDemo;
+			productName = KiwiDemo;
+			productReference = 446EE22420F4836B00017234 /* KiwiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		446EE21C20F4836B00017234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = save;
+				TargetAttributes = {
+					446EE22320F4836B00017234 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 446EE21F20F4836B00017234 /* Build configuration list for PBXProject "KiwiDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 446EE21B20F4836B00017234;
+			productRefGroup = 446EE22520F4836B00017234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				446EE22320F4836B00017234 /* KiwiDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		446EE22220F4836B00017234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446EE23420F4836B00017234 /* LaunchScreen.storyboard in Resources */,
+				446EE23120F4836B00017234 /* Assets.xcassets in Resources */,
+				446EE22F20F4836B00017234 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		446EE22020F4836B00017234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F6FA082112FA9800D2219C /* MD5Utils.m in Sources */,
+				446EE22C20F4836B00017234 /* ViewController.m in Sources */,
+				446EE23720F4836C00017234 /* main.m in Sources */,
+				446EE22920F4836B00017234 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		446EE22D20F4836B00017234 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				446EE22E20F4836B00017234 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		446EE23220F4836B00017234 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				446EE23320F4836B00017234 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		446EE23820F4836C00017234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"HEADER_KIWI=\"$(ROOT_PATH/header)\"",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		446EE23920F4836C00017234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		446EE23B20F4836C00017234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445C23652341E35E00EE705B /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				DEVELOPMENT_TEAM = LTN74YK46Q;
+				ENABLE_BITCODE = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"HEADER_KIWI=\"11111111111\"",
+				);
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "$(HEADER_KIWI)";
+				INFOPLIST_FILE = KiwiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Xclang",
+					"-target-feature",
+					"-Xclang",
+					"-neon",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiwi.KiwiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		446EE23C20F4836C00017234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445C23652341E35E00EE705B /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				DEVELOPMENT_TEAM = LTN74YK46Q;
+				ENABLE_BITCODE = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "$(HEADER_KIWI)";
+				INFOPLIST_FILE = KiwiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Xclang",
+					"-target-feature",
+					"-Xclang",
+					"-neon",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiwi.KiwiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		446EE21F20F4836B00017234 /* Build configuration list for PBXProject "KiwiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446EE23820F4836C00017234 /* Debug */,
+				446EE23920F4836C00017234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446EE23A20F4836C00017234 /* Build configuration list for PBXNativeTarget "KiwiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446EE23B20F4836C00017234 /* Debug */,
+				446EE23C20F4836C00017234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 446EE21C20F4836B00017234 /* Project object */;
+}

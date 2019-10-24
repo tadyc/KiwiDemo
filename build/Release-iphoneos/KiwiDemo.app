@@ -1,0 +1,1 @@
+/tmp/KiwiDemo.dst/Applications/KiwiDemo.app
